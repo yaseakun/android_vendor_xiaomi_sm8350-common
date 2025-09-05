@@ -5351,6 +5351,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     relative_install_path: "hw",
     prefer: true,
+	allow_undefined_symbols: true,
     soc_specific: true,
 }
 
@@ -12669,6 +12670,7 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+	allow_undefined_symbols: true,
     system_ext_specific: true,
 }
 
